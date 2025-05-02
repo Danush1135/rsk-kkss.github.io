@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="ms">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RSK-KKSS - Rumah Sewa Kolej Komuniti Sungai Siput">
+    <title>RSK-KKSS - Rumah Sewa</title>
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<style>
+        body 
+	{
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f9;
+        }
+     
+		.navbar {
+      background-color: #ff6347;
+    }
+
+    .navbar-brand img {
+      width: 150px;
+    }
+
+
+        .container {
+            margin-top: 50px;
+        }
+
+        .house-card {
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            background-color: white;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .house-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+        }
+
+        .house-card h5 {
+            font-size: 22px;
+            font-weight: bold;
+            color: #ff6347;
+            margin-bottom: 15px;
+        }
+
+        .house-card p {
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 15px;
+        }
+
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .footer p {
+	font-size: 14px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+
+        .welcome-text {
+            font-size: 28px;
+            font-weight: bold;
+            text-align: center;
+            color: #333;
+            margin-top: 30px;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .admin-link {
+            display: inline-block;
+            background-color: blue;
+            color: white !important;
+            font-weight: bold;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .admin-link:hover {
+            background-color: darkblue;
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        } 
+
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<header>
+<h1><center style="font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', 'Arial Black', sans-serif">RSK-KKSS</center></h1>
+  <h2><center style="font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', 'Arial Black', sans-serif">
+	RUMAH SEWA KOPERASI KOLEJ KOMUNITI SUNGAI SIPUT
+  </center></h2>
+  <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#">
+        <img src="imej/SUNGAI SIPUT-outlines.png" alt="Logo Kolej Komuniti Sungai Siput" />
+      </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto" style="font-family: Arial, 'Sans Serif Collection'">
+          <li class="nav-item "><a href="Index.html" class="nav-link text-light">Laman Utama</a></li>
+			<li class="nav-item"><a href="RumahSewa.html" class="nav-link text-light">Rumah Sewa Lelaki</a></li>
+          <li class="nav-item "><a href="RumahSewaPerempuan.html" class="nav-link text-light">Rumah Sewa Perempuan</a></li>
+			<li class="nav-item"><a href="About.html" class="nav-link text-light">Tentang Kami</a></li>
+		  <li class="nav-item"><a href="HubungiKami.php" class="nav-link text-light">Hubungi Kami</a></li>
+			<li class="nav-item"><a href="Upload.php" class="nav-link text-light">Bayaran</a></li>
+		  <li class="nav-item "><a href="Semakan.php" class="nav-link text-light">Semak</a></li>
+          <li class="nav-item"><a href="LamanUtama.php" class="btn btn-primary">Login Admin</a></li>
+        </ul>
+      </div>
+  </nav>
+</header>
+
+    <div class="container">
+      <p class="welcome-text">Selamat Datang ke Laman Utama RSK-KKSS</p>
+        <p class="text-center">Rumah sewa untuk pelajar Kolej Komuniti Sungai Siput. Temui rumah sewa yang sesuai untuk anda!</p>
+        <div class="image-container">
+            <img src="imej/5d32b74c-cc7f-418e-a11f-38161ee9d632.png" alt="Gambar Rumah Sewa">
+        </div>
+</div>
+
+<footer class="footer">
+        <p>&copy; 2025 RSK-KKSS. Semua hak cipta terpelihara.</p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

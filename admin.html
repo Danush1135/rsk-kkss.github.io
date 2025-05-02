@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="ms">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="RSK-KKSS - Rumah Sewa Kolej Komuniti Sungai Siput">
+  <title>RSK-KKSS - Rumah Sewa</title>
+
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<style>
+    body {
+      font-family: 'Poppins', 'Arial', sans-serif;
+      background-color: #f4f6f9;
+      margin: 0;
+      padding: 0;
+    }
+
+    .navbar {
+      background-color: #ff6347;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar-brand img {
+      width: 130px;
+    }
+
+    .btn-light {
+      font-weight: bold;
+      border-radius: 8px;
+      padding: 6px 16px;
+      border: 2px solid white;
+      background-color: white;
+      color: black;
+      transition: 0.3s;
+    }
+
+    .btn-light:hover {
+      background-color: #f8f9fa !important;
+      color: #000 !important;
+    }
+
+    .btn-danger {
+      font-weight: bold;
+      border-radius: 8px;
+      padding: 6px 16px;
+      transition: 0.3s;
+    }
+
+    .btn-danger:hover {
+      background-color: #dc3545;
+    }
+
+    .container {
+      margin-top: 50px;
+    }
+
+    .admin-panel {
+      max-width: 600px;
+      margin: auto;
+      padding: 30px;
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      animation: fadeIn 0.8s ease;
+    }
+
+    .admin-panel a {
+      display: block;
+      margin: 15px 0;
+      padding: 14px;
+      background-color: #007bff;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      transition: background 0.3s, transform 0.2s;
+    }
+
+    .admin-panel a:hover {
+      background-color: #0056b3;
+      transform: translateY(-3px);
+      box-shadow: 0 4px 10px rgba(0, 123, 255, 0.4);
+    }
+
+    h1 {
+      font-family: 'Impact', 'Arial Black', sans-serif;
+      margin-top: 20px;
+      font-size: 2.5rem;
+      color: #333;
+      letter-spacing: 1px;
+    }
+
+    .footer {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      margin-top: 50px;
+      font-size: 14px;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+  <link href="css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <header>
+    <center>
+      <h1>RSK-KKSS ADMIN PANEL</h1>
+    </center>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#">
+        <img src="imej/SUNGAI SIPUT-outlines.png" alt="Logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item mr-2">
+                <li><a href="admin.html" class="btn btn-light mr-2">Laman Utama</a></li>
+                <li><a href="Index.html" class="btn btn-danger">Log Out</a></li>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="admin-panel">
+      <a href="MaklumatPelajar.php"><i class="fas fa-user-graduate mr-2"></i> Maklumat Pelajar</a>
+      <a href="Aduan.php"><i class="fas fa-comment-dots mr-2"></i> Aduan</a>
+      <a href="MaklumatBayaran.php"><i class="fas fa-receipt mr-2"></i> Bukti Bayaran</a>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <p>&copy; 2025 RSK-KKSS. Semua hak cipta terpelihara.</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>

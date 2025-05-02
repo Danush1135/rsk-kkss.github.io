@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="ms">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="RSK-KKSS - Rumah Sewa Kolej Komuniti Sungai Siput">
+  <title>RSK-KKSS - Rumah Sewa</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- jQuery -->
+  <script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+
+  <style>
+    body  body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f9;
+        }
+
+    .navbar {
+      background-color: #ff6347;
+    }
+    .navbar-brand img {
+      width: 150px;
+    }
+    .card {
+      border: none;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    }
+    .card-title {
+      font-weight: 600;
+      color: #ff6347;
+    }
+    .card-text {
+      font-size: 14px;
+      color: #666;
+    }
+    .card-img-top {
+      height: 200px;
+      object-fit: cover;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+    .footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 20px;
+    }
+    .register-link {
+      display: inline-block;
+      background-color: #ff6347;
+      color: white;
+      padding: 10px 20px;
+      font-size: 18px;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+      animation: pulse 1.5s infinite;
+    }
+    .register-link:hover {
+      background-color: #e53e36;
+      transform: scale(1.1);
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+      100% { transform: scale(1); }
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- Header -->
+<header>
+  <h1 class="text-center">RSK-KKSS</h1>
+  <h2 class="text-center" style="font-weight: 500;">RUMAH SEWA KOPERASI KOLEJ KOMUNITI SUNGAI SIPUT</h2>
+
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="#">
+      <img src="imej/SUNGAI SIPUT-outlines.png" alt="Logo Kolej Komuniti Sungai Siput" />
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto" style="font-family: Arial, 'Sans Serif Collection'">
+        <li class="nav-item"><a href="Index.html" class="nav-link text-light">Laman Utama</a></li>
+        <li class="nav-item"><a href="RumahSewa.html" class="nav-link text-light">Rumah Sewa Lelaki</a></li>
+        <li class="nav-item"><a href="RumahSewaPerempuan.html" class="nav-link text-light">Rumah Sewa Perempuan</a></li>
+        <li class="nav-item"><a href="About.html" class="nav-link text-light">Tentang Kami</a></li>
+        <li class="nav-item"><a href="HubungiKami.php" class="nav-link text-light">Hubungi Kami</a></li>
+        <li class="nav-item"><a href="Upload.php" class="nav-link text-light">Bayaran</a></li>
+        <li class="nav-item"><a href="Semakan.php" class="nav-link text-light">Semak</a></li>
+        <li class="nav-item"><a href="LamanUtama.php" class="btn btn-primary">Login Admin</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<!-- Kandungan Utama -->
+<main class="container my-5">
+  <div class="row">
+    <!-- Kad Rumah Sewa -->
+    <!-- Rumah 1 -->
+    <div class="col-md-3 mb-4 d-flex">
+      <div class="card w-100">
+        <img src="imej/Screenshot 2025-02-03 133708.png" class="card-img-top" alt="Rumah Makmur">
+        <div class="card-body">
+          <h5 class="card-title">Rumah Jalong</h5>
+          <p class="card-text">  <i class="fas fa-map-marker-alt" style="color: red; margin-right: 5px;"></i>363, Jalan Dato See Khoon Lim, Taman Jalong Baru, 31100 Sungai Siput, Perak</p>
+          <p class="card-text">Bilik: Dorm&nbsp;</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Rumah 2 -->
+    <div class="col-md-3 mb-4 d-flex">
+      <div class="card w-100">
+        <img src="images/Screenshot 2025-04-07 113828.png" class="card-img-top" alt="Rumah Belakang Maybank">
+        <div class="card-body">
+          <h5 class="card-title">Rumah Tun Sambathan</h5>
+          <p class="card-text"> <i class="fas fa-map-marker-alt" style="color: red; margin-right: 5px;"></i> 1005, Taman Tun Sambathan</p>
+          <p class="card-text">5 Bilik | 3 Bilik Air</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Rumah 3 -->
+    <div class="col-md-3 mb-4 d-flex">
+      <div class="card w-100">
+        <img src="imej/Screenshot 2025-01-28 150405.png" class="card-img-top" alt="Rumah Tun Sambathan">
+        <div class="card-body">
+          <h5 class="card-title">Rumah Tun Sambathan</h5>
+          <p class="card-text"> <i class="fas fa-map-marker-alt" style="color: red; margin-right: 5px;"></i> 997, Taman Tun Sambathan</p>
+          <p class="card-text">5 Bilik | 3 Bilik Air</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Rumah 4 -->
+    <div class="col-md-3 mb-4 d-flex">
+      <div class="card w-100">
+        <img src="imej/Screenshot 2025-01-28 144836.png" class="card-img-top" alt="Rumah Jalong">
+        <div class="card-body">
+          <h5 class="card-title">Rumah Makmur</h5>
+          <p class="card-text"> <i class="fas fa-map-marker-alt" style="color: red; margin-right: 5px;"></i> &nbsp;130, Persiaran Makmor 7, Taman Makmur, 31100 Sungai Siput, Perak</p>
+          <p class="card-text">&nbsp;3 Bilik | 2 Bilik Air</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Rumah 5 -->
+    <div class="col-md-3 mb-4 d-flex">
+      <div class="card w-100">
+        <img src="images/Screenshot 2025-04-07 105830.png" class="card-img-top" alt="Rumah Makmur">
+        <div class="card-body">
+          <h5 class="card-title">Rumah Makmur</h5>
+          <p class="card-text"> <i class="fas fa-map-marker-alt" style="color: red; margin-right: 5px;"></i> 271, Persiaran Makmur 13, Taman Makmur, 31100 Sungai Siput, Perak</p>
+          <p class="card-text">3 Bilik | 2 Bilik Air</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Rumah 6 -->
+    <div class="col-md-3 mb-4 d-flex">
+      <div class="card w-100">
+        <img src="images/Screenshot 2025-04-07 110943.png" class="card-img-top" alt="Rumah Makmur">
+        <div class="card-body">
+          <h5 class="card-title">Rumah Makmur</h5>
+          <p class="card-text"> <i class="fas fa-map-marker-alt" style="color: red; margin-right: 5px;"></i> 116, Persiaran Makmur 2, Taman Makmur, 31100 Sungai Siput, Perak</p>
+          <p class="card-text">3 Bilik | 2 Bilik Air</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Rumah 7 -->
+    <div class="col-md-3 mb-4 d-flex">
+      <div class="card w-100">
+        <img src="imej/Screenshot 2025-02-03 133330.png" class="card-img-top" alt="Rumah Tun Sambathan">
+        <div class="card-body">
+          <h5 class="card-title">Rumah Belakang Maybank</h5>
+          <p class="card-text"> <i class="fas fa-map-marker-alt" style="color: red; margin-right: 5px;"></i> &nbsp; 88, Laluan Aman 2, Taman Aman, 31100 Sungai Siput, Perak</p>
+          <p class="card-text">Bilik Dorm &nbsp;</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Rumah 8 -->
+    <div class="col-md-3 mb-4 d-flex">
+      <div class="card w-100">
+        <img src="images/Screenshot 2025-04-07 112604.png" class="card-img-top" alt="Rumah Belakang Maybank">
+        <div class="card-body">
+          <h5 class="card-title">Rumah Belakang Maybank</h5>
+          <p class="card-text"> <i class="fas fa-map-marker-alt" style="color: red; margin-right: 5px;"></i> 89, Laluan Aman 2, Taman Aman, 31100 Sungai Siput, Perak</p>
+          <p class="card-text">Bilik: Dorm</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Butang Pendaftaran -->
+  <p class="text-center mt-4">
+    <a href="BorangPermohonan.php" class="register-link">Daftar Sini!</a>
+  </p>
+</main>
+
+<!-- Footer -->
+<footer class="footer">
+  <p>&copy; 2025 RSK-KKSS - Semua hak cipta terpelihara.</p>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap-4.4.1.js"></script>
+
+</body>
+</html>

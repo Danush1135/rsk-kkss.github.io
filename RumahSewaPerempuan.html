@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="ms">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="RSK-KKSS - Rumah Sewa Kolej Komuniti Sungai Siput">
+  <title>RSK-KKSS - Rumah Sewa (Versi Seronok)</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- jQuery -->
+  <script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f6f9;
+    }
+
+    .navbar {
+      background-color: #ff6347;
+    }
+
+    .navbar-brand img {
+      width: 150px;
+    }
+
+    .card {
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease-in-out;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .card-body {
+      flex-grow: 1;
+    }
+
+    .footer {
+      background-color: #333;
+      color: white;
+    }
+
+    .footer p {
+      font-style: normal;
+    }
+
+    .card-img-top {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .register-link {
+      display: inline-block;
+      background-color: #ff6347;
+      color: white;
+      padding: 10px 20px;
+      font-size: 18px;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+      animation: pulse 1.5s infinite;
+    }
+
+    .register-link:hover {
+      background-color: #e53e36;
+      transform: scale(1.1) rotate(3deg);
+    }
+
+    @keyframes pulse {
+      0% {
+        transform: scale(1);
+      }
+
+      50% {
+        transform: scale(1.05);
+      }
+
+      100% {
+        transform: scale(1);
+      }
+    }
+
+    .card-title {
+      font-weight: 600;
+      color: #ff6347;
+    }
+
+    .admin-link {
+      display: inline-block;
+      background-color: blue;
+      color: white !important;
+      font-weight: bold;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .admin-link:hover {
+      background-color: darkblue;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>RSK-KKSS </h1>
+    <h2>
+      <center style="font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', 'Arial Black', sans-serif">
+        RUMAH SEWA KOPERASI KOLEJ KOMUNITI SUNGAI SIPUT
+      </center>
+    </h2>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#">
+        <img src="imej/SUNGAI SIPUT-outlines.png" alt="Logo Kolej Komuniti Sungai Siput" />
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a href="Index.html" class="nav-link text-light">Laman Utama</a></li>
+          <li class="nav-item"><a href="RumahSewa.html" class="nav-link text-light">Rumah Sewa Lelaki</a></li>
+          <li class="nav-item"><a href="RumahSewaPerempuan.html" class="nav-link text-light">Rumah Sewa Perempuan</a></li>
+          <li class="nav-item"><a href="About.html" class="nav-link text-light">Tentang Kami</a></li>
+          <li class="nav-item"><a href="HubungiKami.php" class="nav-link text-light">Hubungi Kami</a></li>
+          <li class="nav-item"><a href="Upload.php" class="nav-link text-light">Bayaran</a></li>
+          <li class="nav-item"><a href="Semakan.php" class="nav-link text-light">Semak</a></li>
+          <li class="nav-item"><a href="LamanUtama.php" class="btn btn-primary">Login Admin</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main class="container my-5">
+    <div class="row justify-content-center">
+      <!-- Kad 1 -->
+      <div class="col-12 col-md-3 mb-4">
+        <div class="card">
+          <img src="imej/Screenshot 2025-04-18 083822.png" class="card-img-top" alt="Imej Rumah">
+          <div class="card-body">
+            <h5 class="card-title">Rumah Sungai Sejuk</h5>
+            <p class="card-text">
+              <i class="fas fa-map-marker-alt" style="color: red; margin-right: 5px;"></i>
+              Jalan Sungai Siput-Lasah Sungai Siput, 31100
+            </p>
+            <p class="card-text">Dorm | 4 Bilik Air</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Kad 2 -->
+      <div class="col-12 col-md-3 mb-4">
+        <div class="card">
+          <img src="images/Screenshot 2025-04-07 114323.png" class="card-img-top" alt="Imej Rumah">
+          <div class="card-body">
+            <h5 class="card-title">Rumah Kuaters Peladang</h5>
+            <p class="card-text"> <i class="fas fa-map-marker-alt" style="color: red; margin-right: 5px;"></i> Lot. 8698, Sungai Sejuk, Perak, 31100 Sungai Siput </p>
+            <p class="card-text">Dorm | 4 Bilik Air&nbsp;</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pautan Daftar Sini -->
+    <div class="text-center mt-4">
+      <a href="BorangPermohonan.php" class="register-link">Daftar Sini!</a>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer py-3 mt-5">
+    <div class="container text-center">
+      <p>&copy; 2025 RSK-KKSS. Semua hak cipta terpelihara.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap-4.4.1.js"></script>
+
+</body>
+
+</html>
